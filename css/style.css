@@ -194,7 +194,7 @@ p.quote {
 }
 .popular-item div {
 	background-size: cover;
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 	height: 12vw;
 	margin: 0 0 3%;
@@ -224,7 +224,7 @@ p.quote {
 header li:hover, .social img:hover, .social-end img:hover {
 	text-shadow: 0 0 15px #000;
 }
-.blog-tech__widget:hover, .quote:hover, .popular-item:hover {
+.blog-tech__widget:hover, .quote:hover, .popular-item div:hover {
 	box-shadow: 0 0 15px #adadad;
 }
 .footer li:hover {
