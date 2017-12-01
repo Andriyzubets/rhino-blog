@@ -215,6 +215,9 @@ p.quote {
 	color: #999;
 }
 /**/
+.logo img:hover {
+	color: #d2b356;
+}
 .logo:hover, header li:hover, .social img:hover, .blog-tech__widget:hover, .social-end img:hover, .popular-item:hover, .footer li:hover {
 	transform: scale(1.05);
 }
