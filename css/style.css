@@ -10,6 +10,14 @@
 	font-family: "batang";
 	src: url(../fonts/batang.ttc);
 }
+@font-face {
+	font-family: "fetish light";
+	src: url(../fonts/Fashion Fetish Light.ttf);
+}
+@font-face {
+	font-family: "fetish small";
+	src: url(../fonts/Fashion Fetish Small Caps.ttf);
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -62,7 +70,9 @@ header {
 	width: 50px;
 	height: 60px;
 }
-
+.logo a:hover {
+	color: #d2b356;
+}
 .logo a:hover .logo-img {
 	display: none;
 }
@@ -70,7 +80,7 @@ header {
 	display: block;
 }
 .menu {
-    width: 70%;
+    width: 65%;
     align-self: center;
 }
 .menu ul {
@@ -80,7 +90,7 @@ header {
 	justify-content: space-between;
 }
 .main-menu li:last-child {
-    margin: 0 0 0 25%;
+    margin: 0 0 0 13%;
 }
 .menu a{
 	text-decoration: none;
@@ -114,9 +124,9 @@ h1 {
 }
 .blog-main {
 	max-width: 1245px;
-	width: 94%;
+	width: 90%;
 	margin: 0 auto;
-	padding: 3%;
+	padding: 3% 5%;
 }
 .blog-tech {
 	width: 45%;
@@ -126,6 +136,9 @@ h1 {
 }
 .blog-tech p {
 	width: 45%;
+}
+.blog-tech p:first-child {
+	margin: 0 0 2%;
 }
 .blog-tech a {
 	color: #d2b356;
@@ -146,7 +159,8 @@ a.blog-tech__widget {
 .blog-content {
 	text-align: justify;
 	margin: 3% 0;
-	font-size: 1.2em;
+    font-size: 1.3em;
+    line-height: 1.5em;
 }
 .blog-content a{
 	color: #d2b356;
@@ -168,16 +182,12 @@ a.blog-tech__widget {
     padding: 0 0 0 3%;
     margin: 0 0 1%;
 }
-.blog-content li:last-child {
-	background: url(../img/star.png) no-repeat;
-	background-size: 1.5%;
-}
 p.quote {
-    font-family: 'batang', sans-serif;
+    font-family: 'fetish small', sans-serif;
     border-left: 10px solid #d2b356;
     padding: 0 0 0 2.8%;
-    margin: 0 0 0 7%;
-    height: 5vw;
+    margin: 0 0 0 10%;
+    height: 7.5vw;
     display: flex;
     align-items: center;
 }
