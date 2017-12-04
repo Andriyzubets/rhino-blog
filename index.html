@@ -6,6 +6,8 @@
 	<title>Rhinos blog</title>
 	<link rel="shortcut icon" href="img/brand.ico" title="Favicon">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+	<script src="http://swip.codylindley.com/jquery.popupWindow.js"></script>
 </head>
 <body>
 	<section class="header">
@@ -50,7 +52,7 @@
 					Тут будет заголовок статьи
 				</h1>
 				<div class="social">
-					<a href="https://www.facebook.com/kievriarhinos" target="_blank">
+					<a id="share-fb" href="http://www.facebook.com/sharer.php?u=https://andriyzubets.github.io/rhinos-blog/">
 						<img src="img/facebook-logo-white.png" alt="Follow us on Facebook">
 					</a>
 					<a href="https://www.instagram.com/aleksandr.bold/?hl=ru" target="_blank">
@@ -183,7 +185,7 @@
 		<div class="popular-item">
 			<a href="#">
 				<div class="third-line">
-				
+
 				</div>
 				<h3>
 					Как правильный брендинт помогает избавиться от конкурентов
@@ -225,6 +227,12 @@
 			</li>
 		</ul>
 	</section>
-
+	<script type="text/javascript">
+		$('#share-fb').popupWindow({ 
+			width:550, 
+			height:400,
+			centerBrowser:1
+		});
+	</script>
 </body>
 </html>
