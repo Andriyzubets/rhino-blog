@@ -11,7 +11,7 @@
 	src: url(../fonts/batang.ttc);
 }
 @font-face {
-	font-family: "fetish light";
+	font-family: "fetish-light";
 	src: url(../fonts/Fashion Fetish Light.ttf);
 }
 @font-face {
@@ -133,7 +133,7 @@ h1 {
 	padding: 3% 5%;
 }
 .blog-tech {
-	width: 45%;
+	width: 50%;
 	display: flex;
     flex-wrap: wrap;
     line-height: 30px;
@@ -184,14 +184,14 @@ a.blog-tech__widget {
     background-size: 1.5%;
     background-position-y: center;
     padding: 0 0 0 4%;
-    margin: 0 0 1% 7.5%;
+    margin: 0 0 1% 13.5%;
 }
 p.quote {
-    font-family: 'fetish small', sans-serif;
+    font-family: 'fetish-light', sans-serif;
     border-left: 10px solid #d2b356;
     padding: 0 0 0 2.8%;
-    margin: 0 0 0 10%;
-    height: 7.5vw;
+    margin: 0 0 0 15%;
+    height: 7em;
     display: flex;
     align-items: center;
 }
@@ -223,6 +223,7 @@ p.quote {
 	color: #999;
 	margin: 3% auto;
 	padding: 0 3%;
+	font-size: 12px;
 }
 .footer ul {
 	list-style: none;
@@ -280,7 +281,7 @@ header li:hover, .social img:hover, .blog-tech__widget:hover, .social-end img:ho
 header li:hover, .social img:hover, .social-end img:hover {
 	text-shadow: 0 0 15px #000;
 }
- .quote:hover, .popular-item div:hover {
+.popular-item div:hover {
 	box-shadow: 0 0 15px #adadad;
 }
 .blog-tech__widget:hover {
@@ -289,6 +290,9 @@ header li:hover, .social img:hover, .social-end img:hover {
 }
 .footer li:hover {
 	text-shadow: 0 0 8px #dec7c7;
+}
+.footer li:nth-child(n+3) {
+	opacity: 0.4;
 }
 @media screen and (max-width: 922px) {
 	.menu > ul {
