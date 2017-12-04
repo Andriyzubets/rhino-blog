@@ -53,9 +53,21 @@ header {
     text-decoration: none;
     color: #fff;
 }
+.logo-hover {
+	display: none;
+	width: 50px;
+	height: 60px;
+}
 .logo-img {
 	width: 50px;
 	height: 60px;
+}
+
+.logo a:hover .logo-img {
+	display: none;
+}
+.logo a:hover .logo-hover {
+	display: block;
 }
 .menu {
     width: 70%;
@@ -248,7 +260,7 @@ p.quote {
 .logo img:hover {
 	color: #d2b356;
 }
-.logo:hover, header li:hover, .social img:hover, .blog-tech__widget:hover, .social-end img:hover, .popular-item:hover, .footer li:hover {
+header li:hover, .social img:hover, .blog-tech__widget:hover, .social-end img:hover, .popular-item:hover, .footer li:hover {
 	opacity: 0.7;
 }
 header li:hover, .social img:hover, .social-end img:hover {
