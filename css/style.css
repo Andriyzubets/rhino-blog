@@ -138,8 +138,11 @@ h1 {
     flex-wrap: wrap;
     line-height: 30px;
 }
+.time_read {
+	font-weight: bold;
+}
 .blog-tech p {
-	width: 45%;
+	width: 48%;
 }
 .blog-tech p:first-child {
 	margin: 0 0 2%;
@@ -154,9 +157,8 @@ h1 {
 }
 a.blog-tech__widget {
 	color: #111;
-	width: 53%;
+	width: 50%;
 	text-align: center;
-	text-transform: uppercase;
 	text-decoration: none;
 	border: 3px solid #111;
 }
