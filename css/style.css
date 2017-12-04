@@ -58,7 +58,7 @@ header {
 	height: 60px;
 }
 .menu {
-    width: 50%;
+    width: 70%;
     align-self: center;
 }
 .menu ul {
@@ -127,12 +127,14 @@ a.blog-tech__widget {
 	color: #111;
 	width: 53%;
 	text-align: center;
+	text-transform: uppercase;
 	text-decoration: none;
 	border: 3px solid #111;
 }
 .blog-content {
 	text-align: justify;
 	margin: 3% 0;
+	font-size: 1.5em;
 }
 .blog-content a{
 	color: #d2b356;
@@ -262,7 +264,7 @@ header li:hover, .social img:hover, .social-end img:hover {
 .footer li:hover {
 	text-shadow: 0 0 8px #dec7c7;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 922px) {
 	.menu > ul {
 		display: none;
 	}
@@ -281,7 +283,7 @@ header li:hover, .social img:hover, .social-end img:hover {
 		display: flex;
 		flex-direction: column;
 
-	}
+	}	
 	.sandwich > div {
 		width: 20px;
 		height: 3px;
@@ -301,6 +303,12 @@ header li:hover, .social img:hover, .social-end img:hover {
 		display: flex;
 		width: 30%;
 	}
+	.social-end {
+	    width: 50%;
+	}
+}
+@media screen and (max-width: 768px) {
+
 	h1 {
 		width: 90%;
 	}
@@ -309,7 +317,7 @@ header li:hover, .social img:hover, .social-end img:hover {
     	margin: 0 auto;
 	}
 	.social-end {
-	    width: 40%;
+	    width: 50%;
 	}
 	.footer ul {
     justify-content: space-around;
@@ -335,6 +343,7 @@ header li:hover, .social img:hover, .social-end img:hover {
 	}
 	.social-end {
 		margin: 0 auto;
+		width: 70%;
 	}
 	.footer ul {
 	    flex-wrap: wrap;
