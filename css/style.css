@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "blowbrush";
-	src: url(../fonts/blowbrush.otf);
+	font-family: "moloko";
+	src: url(../fonts/moloko.ttf);
 }
 @font-face {
 	font-family: "century";
@@ -90,7 +90,7 @@ header {
 	display: none;
 }
 h1 {
-	font-family: 'blowbrush', sans-serif;
+	font-family: 'moloko', sans-serif;
 	font-size: 50px;
 	font-weight: 600;
 	color: #fff;
