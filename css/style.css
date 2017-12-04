@@ -1,3 +1,15 @@
+@font-face {
+	font-family: "blowbrush";
+	src: url(../fonts/blowbrush.otf);
+}
+@font-face {
+	font-family: "century";
+	src: url(../fonts/CENTURY.TTF);
+}
+@font-face {
+	font-family: "batang";
+	src: url(../fonts/batang.ttc);
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -5,7 +17,9 @@
 }
 body {
 	color: #111;
+	font-family: 'century', sans-serif;
 }
+
 .header {
 	width: 100%;
 	height: 500px;
@@ -64,6 +78,7 @@ header {
 	display: none;
 }
 h1 {
+	font-family: 'blowbrush', sans-serif;
 	font-size: 50px;
 	font-weight: 600;
 	color: #fff;
@@ -92,7 +107,7 @@ h1 {
 	padding: 3%;
 }
 .blog-tech {
-	width: 36%;
+	width: 45%;
 	display: flex;
     flex-wrap: wrap;
     line-height: 30px;
@@ -101,43 +116,56 @@ h1 {
 	width: 45%;
 }
 .blog-tech a {
-	color: #f3205a;
+	color: #d2b356;
 	font-weight: bold;
+	text-decoration: none;
 }
 .blog-tech img {
 	margin: 0 3% 0 -1%;
 }
 a.blog-tech__widget {
-	color: #fff;
-	background: #f4002a;
-	border-radius: 20px;
+	color: #111;
 	width: 53%;
 	text-align: center;
 	text-decoration: none;
+	border: 3px solid #111;
 }
 .blog-content {
 	text-align: justify;
 	margin: 3% 0;
 }
 .blog-content a{
-	color: #ffd700;
-	text-decoration: none;
+	color: #d2b356;
 }
-a.a-variant {
-	color: #000;
-	border-bottom: 1px dashed #000;
+.blog-content a:hover {
+	text-decoration: none;
 }
 .blog-content p {
 	margin: 1% 0;
 }
 .blog-content ul {
 	margin: 0 0 0 3%;
-	list-style-image: url(../img/star.png);
+}
+.blog-content li {
+	list-style: none;
+    background: url(../img/star-1.png) no-repeat;
+    background-size: 1.5%;
+    background-position-y: center;
+    padding: 0 0 0 3%;
+    margin: 0 0 1%;
+}
+.blog-content li:last-child {
+	background: url(../img/star.png) no-repeat;
+	background-size: 1.5%;
 }
 p.quote {
-	border-left: 3px solid #ffd700;
-	line-height: 30px;
-	padding: 0 0 0 2.8%;
+    font-family: 'batang', sans-serif;
+    border-left: 10px solid #d2b356;
+    padding: 0 0 0 2.8%;
+    margin: 0 0 0 7%;
+    height: 5vw;
+    display: flex;
+    align-items: center;
 }
 .blog-end img {
 	vertical-align: middle;
@@ -219,13 +247,17 @@ p.quote {
 	color: #d2b356;
 }
 .logo:hover, header li:hover, .social img:hover, .blog-tech__widget:hover, .social-end img:hover, .popular-item:hover, .footer li:hover {
-	transform: scale(1.05);
+	opacity: 0.7;
 }
 header li:hover, .social img:hover, .social-end img:hover {
 	text-shadow: 0 0 15px #000;
 }
-.blog-tech__widget:hover, .quote:hover, .popular-item div:hover {
+ .quote:hover, .popular-item div:hover {
 	box-shadow: 0 0 15px #adadad;
+}
+.blog-tech__widget:hover {
+    border-color: #d2b356;
+    color: #d2b356;
 }
 .footer li:hover {
 	text-shadow: 0 0 8px #dec7c7;
