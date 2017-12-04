@@ -1,22 +1,20 @@
 @font-face {
-	font-family: "inky";
+	font-family: inky;
 	src: url(../fonts/inky.ttf);
 }
 @font-face {
-	font-family: "century";
+	font-family: century;
 	src: url(../fonts/CENTURY.TTF);
 }
 @font-face {
-	font-family: "batang";
+	font-family: batang;
 	src: url(../fonts/batang.ttc);
 }
 @font-face {
-	font-family: "fetish-light";
-	src: url(../fonts/Fashion Fetish Light.ttf);
-}
-@font-face {
-	font-family: "fetish small";
-	src: url(../fonts/Fashion Fetish Small Caps.ttf);
+  font-family: 'FashionFetishLight';
+  src: url('../fonts/FashionFetishLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 * {
 	margin: 0;
@@ -25,7 +23,7 @@
 }
 body {
 	color: #111;
-	font-family: 'century', sans-serif;
+	font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 .header {
@@ -186,10 +184,10 @@ a.blog-tech__widget {
     background-size: 1.5%;
     background-position-y: center;
     padding: 0 0 0 4%;
-    margin: 0 0 1% 13.5%;
+    margin: 0 0 1% 12.5%;
 }
 p.quote {
-    font-family: 'fetish-light', sans-serif;
+    font-family: 'FashionFetishLight';
     border-left: 10px solid #d2b356;
     padding: 0 0 0 2.8%;
     margin: 0 0 0 15%;
