@@ -78,6 +78,7 @@ header {
 }
 .logo a:hover {
 	color: #d2b356;
+
 }
 .logo a:hover .logo-img {
 	display: none;
