@@ -82,7 +82,7 @@
 				<img src="img/clock_time.png" alt="Time with us">
 				Время прочтения: <span class="time_read"></span>
 			</p>
-			<a href="#" class="blog-tech__widget">
+			<a href="send.php" id="send-link" class="blog-tech__widget">
 				Нет времени читать?
 			</a>
 		</div>
@@ -234,6 +234,11 @@
 		$('#share-fb').popupWindow({ 
 			width:550, 
 			height:400,
+			centerBrowser:1
+		});
+		$('#send-link').popupWindow({ 
+			width:300, 
+			height:150,
 			centerBrowser:1
 		});
 	</script>
